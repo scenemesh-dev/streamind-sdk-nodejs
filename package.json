@@ -1,0 +1,43 @@
+{
+  "name": "@streamind/sdk",
+  "version": "1.0.0",
+  "description": "StreamInd SDK for Node.js - High-performance WebSocket SDK for real-time bidirectional communication",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "streamind",
+    "sdk",
+    "websocket",
+    "real-time",
+    "iot",
+    "async"
+  ],
+  "author": "StreamInd",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scenemesh-dev/streamind-sdk-nodejs.git"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
